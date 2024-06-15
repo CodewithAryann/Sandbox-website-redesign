@@ -414,7 +414,6 @@ margin-bottom: 12px;
 }
 .sandbox-connect{
   width: 100%;
-  /* background-color: #FBB522; */
   height: 123%;
   margin-top: -246px;
 }
@@ -426,7 +425,7 @@ margin-bottom: 12px;
   font-size: 3vw;
   float: right;
   line-height: 1;
-  margin-top: 7vw;
+  margin-top: 12vw;
   text-align:right;
   margin-right: 5.6vw;
 }
@@ -437,6 +436,7 @@ margin-bottom: 12px;
   top: 40%;
   left: 10%;
   width: 32%;
+  margin-bottom: 28%;
 }
 #line{
   background: black;
@@ -463,6 +463,72 @@ margin-bottom: 12px;
 img#get-connect-img2{
   width: 60%;
   position: absolute;
-  top: 20%;
+  top: 23%;
   left: 203%;
+}
+#yt-video{
+  width: 94%;
+  height: 60%;
+  /* margin-top: 272%; */
+  position: relative;
+  top: 50%;
+  display: flex;
+  gap: 24%;
+  left: 6%;
+}
+iframe{
+  margin-top: -22%;
+  margin-left: 4vw;
+  /* width: 46%;; */
+  width: 151%;
+  height: 100%;
+}
+#yt-video-p{
+  margin-top: -6vw;
+  font-size: 4vw;
+  width: 47%;
+}
+.yt-video-btn{
+  padding: 10px 10px;
+  border: 1px solid #FBB522;
+  font-size: 21px;
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+}
+
+.yt-video-btn{
+  border: 1px solid #FBB522;
+  color: black;
+  transition: all ease 0.4s;
+  position: relative;
+  font-size: 18px;
+  overflow: hidden;
+}
+
+.yt-video-btn::after {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: #FBB522;
+  left: 0;
+  bottom: -100%;
+  border-radius: 100%;
+  transition: all ease 0.4s;
+}
+
+.yt-video-btn:hover::after {
+  bottom: 0;
+  border-radius: 0;
+}
+
+.yt-video-btn {
+  color: black;
+  text-decoration: none;
+  position: relative;
+  z-index: 9;
+}
+
+.yt-video-btn:hover button {
+  color: black;
 }
