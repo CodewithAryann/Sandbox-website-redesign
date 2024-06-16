@@ -779,3 +779,161 @@ iframe{
 .play-btn:hover a{
   color: rgb(0, 0, 0);
 }
+#branches h1{
+  margin-left: 8vw;
+  font-size: 3vw;
+  text-transform: uppercase;
+  margin-top: 13vw;
+  margin-bottom: -3vw;
+}
+#location{
+  display: flex;
+  gap: 36%;
+  margin-left: 18vw;
+  margin-top: 13vw;
+  width: 70%;
+  padding-bottom: 10vw;
+}
+#dubai{
+  text-align: center;
+}
+#dubai img{
+  margin-left: 76px;
+  margin-bottom: 2vw;
+}
+#dubai h1{
+  font-size: 2vw;
+  font-weight: 600;
+}
+#dubai p{
+  font-family: "Poppins", sans-serif;
+}
+#france{
+  text-align: center;
+}
+#france img{
+  margin-left: 49px;
+  margin-bottom: 2vw;
+}
+#france h1{
+  font-size: 2vw;
+  font-weight: 600;
+}
+#france p{
+  font-family: "Poppins", sans-serif;
+}
+
+.footer {
+  background-color: #000000;
+  color: white;
+  padding: 78px 0;
+  padding-top: 7rem;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.footer-logo img {
+  width: 150px;
+  margin-right: 3vw;
+}
+.footer-col {
+  flex: 1;
+  min-width: 200px;
+  margin-bottom: 20px;
+}
+.footer-col h4 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  font-size: 1.6vw;
+}
+.footer-col ul {
+  list-style-type: none;
+  padding: 0;
+}
+.footer-col ul li {
+  margin-bottom: 10px;
+}
+.footer-col ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+}
+.footer-col ul li a:hover {
+  text-decoration: underline;
+  color: #FBB522;
+}
+#footer-span{
+  color: #FBB522;
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+}
+.footer-bottom {
+  text-align: center;
+  padding: 30px 0 10px 0;
+  border-top: 1px solid #FBB522;
+  margin-bottom: -20px; 
+}
+
+
+
+#loader{
+  height: 100%;
+  width: 100%;
+  background-color: #000;
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  transition: all ease 0.7s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#loader h1{
+  font-size: 4vw;
+  color: transparent;
+  background: #FBB522;
+  -webkit-background-clip: text;
+  position: absolute;
+  opacity: 0;
+  animation-name: load;
+  animation-duration: 1s;
+  animation-delay: 1s;
+  animation-timing-function: linear;
+  text-transform: uppercase;
+}
+#loader h1:nth-child(2){
+  animation-delay: 2s;
+}
+#loader h1:nth-child(3){
+  animation-delay: 3s;
+}
+
+@keyframes load {
+  0%{
+      opacity: 0;
+  }
+  10%{
+      opacity: 1;
+  }
+  90%{
+      opacity: 1;
+  }
+  100%{
+      opacity: 0;
+  }
+}
+
+@media (max-width:600px) {
+  #loader h1{
+      font-size: 9vw;
+    
+  }
+}
