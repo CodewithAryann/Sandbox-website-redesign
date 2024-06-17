@@ -705,7 +705,7 @@ iframe {
 .digital #line {
   margin-left: 10vw;
   margin-top: 0px;
-  width: 6%;
+  width: 5%;
   margin-bottom: 27px;
   background-color: black;
 }
@@ -984,7 +984,7 @@ iframe {
 #loader h1 {
   font-size: 4vw;
   color: transparent;
-  background: #FBB522;
+  background: whitesmoke;
   -webkit-background-clip: text;
   position: absolute;
   opacity: 0;
@@ -994,6 +994,9 @@ iframe {
   animation-timing-function: linear;
   text-transform: uppercase;
 }
+#loader h1 span{
+  color: #FBB522;
+}
 
 #loader h1:nth-child(2) {
   animation-delay: 2s;
@@ -1001,6 +1004,10 @@ iframe {
 
 #loader h1:nth-child(3) {
   animation-delay: 3s;
+}
+
+#loader h1:nth-child(4) {
+  animation-delay: 4s;
 }
 
 @keyframes load {
