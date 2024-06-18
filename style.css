@@ -43,10 +43,6 @@ body {
   transition: background-color ease-out .5s;
 }
 
-/* *::selection {
-  background-color: var(--sand-brown);
-} */
-
 * {
   margin: 0;
   padding: 0;
@@ -61,19 +57,10 @@ body {
 }
 
 #main {
-  /* background-color: #000; */
   position: relative;
   z-index: 10;
 }
 
-/* 
-#page1 {
-  min-height: 100vh;
-  width: 100%;
-  background-color: #EFEAE3;
-  position: relative;
-  padding: 0 2vw;
-} */
 .sandbox {
   display: flex;
   gap: 5%;
@@ -190,8 +177,7 @@ img.lang-2:hover {
 }
 
 .sandbox-text {
-  position: absolute;
-  /* margin-bottom: -66px; */
+  position: absolute; 
   margin-bottom: -188px;
 }
 
@@ -474,6 +460,7 @@ hr {
   margin-top: 12vw;
   text-align: right;
   margin-right: 5.6vw;
+  opacity: 0;
 }
 
 #get-connect {
@@ -504,18 +491,21 @@ hr {
 .get-p {
   position: relative;
   z-index: 1;
+  opacity: 0;
 }
 
 #get-p2 {
   margin-top: 2rem;
   width: 188%;
   font-size: 2rem;
+  opacity: 0;
 }
 
 img#get-connect-img2 {
   width: 60%;
   position: absolute;
-  top: 23%;
+  /* top: 23%; */
+  top: 43%;
   left: 203%;
 }
 
@@ -546,6 +536,7 @@ iframe {
   margin-top: -6vw;
   font-size: 4vw;
   width: 47%;
+  opacity: 0;
 }
 
 .yt-video-btn {
@@ -605,6 +596,7 @@ iframe {
   margin-right: 8vw;
   width: 17%;
   font-size: 2vw;
+  opacity: 0;
 }
 
 #brand h1 {
@@ -614,6 +606,7 @@ iframe {
   width: 27%;
   line-height: 109%;
   padding-top: 88px;
+  opacity: 0;
 }
 
 #brand p {
@@ -622,6 +615,7 @@ iframe {
   font-size: 2vw;
   font-family: "Poppins", sans-serif;
   margin-left: 11%;
+  opacity: 0;
 }
 
 #brand #line {
@@ -633,6 +627,7 @@ iframe {
 #brand button {
   margin-left: 11%;
   margin-top: 3%;
+  opacity: 0;
 }
 
 .brand-btn {
@@ -690,6 +685,7 @@ iframe {
   margin-right: 9vw;
   font-size: 2vw;
   width: 19%;
+  opacity: 0;
 }
 
 .digital h1 {
@@ -697,6 +693,7 @@ iframe {
   width: 33%;
   padding-top: 7%;
   margin-left: 10vw;
+  opacity: 0;
 }
 
 #digital-p {
@@ -705,6 +702,7 @@ iframe {
   font-size: 2vw;
   font-family: "Poppins", sans-serif;
   margin-bottom: 7vw;
+  opacity: 0;
 }
 
 .digital #line {
@@ -767,6 +765,7 @@ iframe {
   font-size: 4vw;
   margin-left: 17vw;
   margin-top: 9vw;
+  opacity: 0;
 }
 
 .work img {
@@ -782,6 +781,7 @@ iframe {
   float: right;
   margin-right: 7vw;
   font-size: 3vw;
+  opacity: 0;
 }
 
 .play h1 {
@@ -789,6 +789,7 @@ iframe {
   text-transform: uppercase;
   padding-top: 7%;
   margin-left: 7vw;
+  opacity: 0;
 }
 
 .play #line {
@@ -859,6 +860,7 @@ iframe {
   text-transform: uppercase;
   margin-top: 13vw;
   margin-bottom: -3vw;
+  opacity: 0;
 }
 
 #location {
