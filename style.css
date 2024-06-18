@@ -43,9 +43,9 @@ body {
   transition: background-color ease-out .5s;
 }
 
-*::selection {
+/* *::selection {
   background-color: var(--sand-brown);
-}
+} */
 
 * {
   margin: 0;
@@ -461,6 +461,7 @@ hr {
   width: 100%;
   height: 123%;
   margin-top: -246px;
+  margin-bottom: -132px;
 }
 
 #creative-content {
@@ -521,12 +522,16 @@ img#get-connect-img2 {
 #yt-video {
   width: 94%;
   height: 60%;
-  /* margin-top: 272%; */
   position: relative;
-  top: 50%;
+  top: 35%;
   display: flex;
   gap: 24%;
   left: 6%;
+  padding-top: 12%;
+}
+.video{
+  margin-top: 23px;
+  height: 282px;
 }
 
 iframe {
@@ -770,7 +775,7 @@ iframe {
 }
 
 .play {
-  margin-top: 4vw;
+  padding-top: 7%;
 }
 
 .play p {
