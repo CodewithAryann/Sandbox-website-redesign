@@ -71,7 +71,7 @@ function loaderAnimation() {
 function sandboximg() {
     gsap.to("#img1", {
         scrollTrigger: {
-            trigger: "#img1",
+            trigger: ".get-p",
             start: "top 70%",
             end: "bottom bottom",
             scrub: 1
@@ -95,7 +95,7 @@ function getp() {
 function creativecontent() {
     gsap.to("#creative-content", {
         scrollTrigger: {
-            trigger: "#creative-content",
+            trigger: ".get-p",
             start: "top 70%",
             end: "bottom bottom",
             scrub: 1
